@@ -1,0 +1,45 @@
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-image {
+    max-width: 100%; /* Responsive */
+    width: 560px; /* Set a specific width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+
+h1 {
+    font-size: 2.5rem; /* Adjust for a more impactful heading */
+    color: #0060ae; /* Darker color for company branding */
+}
+
+h3 {
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: #555; /* Slightly lighter color for subheading */
+    margin-bottom: 20px; /* Space between heading and paragraph */
+}
+
+p {
+    font-size: 1.2rem; /* For additional info */
+    color: #666; /* Color for paragraph text */
+    margin-bottom: 30px; /* Space before button */
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: rgb(15, 63, 208); /* Button color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: goldenrod; /* Hover effect */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

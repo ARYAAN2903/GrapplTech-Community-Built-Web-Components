@@ -1,0 +1,81 @@
+.About {
+    background-color: white; /* Changed background to white */
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; /* Center content */
+}
+
+.company-image {
+    max-width: 60%; /* Reduced width to 60% */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between image and heading */
+    flex: 1; /* Allow image to grow and take available space */
+}
+
+/* Adjust image styling for larger screens */
+.main img {
+    max-width: 80%;
+    margin-left: 50px; /* Left margin for larger screens */
+}
+
+.About-text {
+    margin-left: 50px;
+    flex: 1;
+    text-align: center; /* Center text */
+}
+
+.About-text h2 {
+    font-size: 36px; /* Reduced heading size */
+    color: #0060ae; /* Changed heading color to light blue */
+    font-weight: bold; /* Made text bold */
+    padding-bottom: 20px; /* Reduced margin between heading and paragraph */
+}
+
+.About-text p {
+    font-size: 20px; /* Adjusted paragraph font size */
+    font-weight: bold; /* Made text bold */
+    padding-bottom: 15px; /* Reduced margin between paragraph and button */
+}
+
+.About-text a {
+    padding: 12px;
+    background-color: rgb(15, 63, 208); /* Changed button color to dark blue */
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.About-text a:hover {
+    background-color: goldenrod; /* Change to golden yellow on hover */
+    transform: scale(1.1);
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company-image {
+        margin: 0; /* Remove margin for smaller screens */
+        max-width: 80%; /* Adjust width for smaller screens */
+    }
+
+    .main img {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 20px; /* Space below the image */
+    }
+
+    .About-text {
+        margin-left: 0; /* Remove left margin on smaller screens */
+    }
+}

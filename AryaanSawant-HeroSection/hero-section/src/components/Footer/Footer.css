@@ -1,0 +1,42 @@
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #cfd602; /* Set font color to white */
+    text-align: center;
+    padding: 10px 0; /* Reduced padding to decrease height */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-first {
+    text-align: center;
+}
+
+.footer-first h3 {
+    margin-top: 5px; /* Reduced margin to further decrease height */
+    color: #ffffff; /* Set font color to white */
+}
+
+.footer-rights {
+    margin-top: 10px; /* Reduced margin to decrease height */
+    font-size: 14px;
+    color: #fff; /* Set font color to white */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    footer {
+        padding: 5px 0; /* Further reduce padding on mobile */
+    }
+
+    .footer-first h3 {
+        font-size: 16px;
+    }
+
+    .footer-rights {
+        text-align: center;
+    }
+}
